@@ -1,9 +1,15 @@
 "*":
+  "atom-beautify":
+    executables:
+      autopep8: {}
   "atomic-emacs":
     alwaysUseKillRing: true
   core:
     excludeVcsIgnoredPaths: false
-    packagesWithKeymapsDisabled: []
+    packagesWithKeymapsDisabled: [
+      "highlight-line"
+      "atom-beautify"
+    ]
     telemetryConsent: "no"
     uriHandlerRegistration: "never"
   "disable-keybindings":
@@ -22,6 +28,11 @@
     tabLength: 4
   "exception-reporting":
     userId: "b5483ec8-dc77-4b2d-bf24-af83e15170bc"
+  "highlight-line":
+    enableBackgroundColor: false
+    enableSelectionBorder: true
+    enableUnderline: true
+    underline: "dashed"
   "platformio-ide-terminal":
     core:
       shell: "F:\\Tool\\Git\\bin\\bash.exe"
