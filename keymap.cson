@@ -34,3 +34,14 @@
 
 'body':
     'f9': 'tree-view:toggle'
+
+'.platform-win32':
+  'alt-:': 'fuzzy-finder:toggle-file-finder'
+  'ctrl-p': 'atomic-emacs:previous-line'
+
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-c ctrl-c': 'script:run'
+  'shift-ctrl-alt-b': 'unset!'
+  'ctrl-q': 'script:kill-process'
+  'shift-ctrl-j': 'unset!'
+  'shift-ctrl-alt-o': 'unset!'

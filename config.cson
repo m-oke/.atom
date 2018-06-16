@@ -3,6 +3,7 @@
     alwaysUseKillRing: true
   core:
     excludeVcsIgnoredPaths: false
+    packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
     uriHandlerRegistration: "never"
   "disable-keybindings":
