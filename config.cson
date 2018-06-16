@@ -1,0 +1,5 @@
+"*":
+  core:
+    uriHandlerRegistration: "never"
+  "exception-reporting":
+    userId: "b5483ec8-dc77-4b2d-bf24-af83e15170bc"
