@@ -22,7 +22,8 @@
   "exception-reporting":
     userId: "b5483ec8-dc77-4b2d-bf24-af83e15170bc"
   "platformio-ide-terminal":
-    core: {}
+    core:
+      shell: "F:\\Tool\\Git\\bin\\bash.exe"
     style: {}
     toggles:
       autoClose: true
