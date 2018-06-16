@@ -1,5 +1,23 @@
 "*":
+  "atomic-emacs":
+    alwaysUseKillRing: true
   core:
+    excludeVcsIgnoredPaths: false
+    telemetryConsent: "no"
     uriHandlerRegistration: "never"
+  "disable-keybindings":
+    exceptCommunityPackages: [
+      "emacs-plus"
+      "atomic-emacs"
+    ]
+    prefixKeys: [
+      "ctrl-k"
+    ]
+  editor:
+    autoIndentOnPaste: false
+    fontFamily: "Ricty Diminished Discord, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    showIndentGuide: true
+    softWrap: true
+    tabLength: 4
   "exception-reporting":
     userId: "b5483ec8-dc77-4b2d-bf24-af83e15170bc"
