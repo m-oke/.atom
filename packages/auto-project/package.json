@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\ERRORC~1\\AppData\\Local\\Temp\\d-118517-18700-1i24t7w.gur1azia4i\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\ERRORC~1\\AppData\\Local\\Temp\\d-118517-18700-1i24t7w.gur1azia4i\\package.tgz",
+        "spec": "C:\\Users\\ERRORC~1\\AppData\\Local\\Temp\\d-118517-18700-1i24t7w.gur1azia4i\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\ERRORC~1\\AppData\\Local\\Temp\\apm-install-dir-118517-18700-1jutqx6.h0e2ck57b9"
+    ]
+  ],
+  "_from": "..\\d-118517-18700-1i24t7w.gur1azia4i\\package.tgz",
+  "_id": "auto-project@1.1.7",
+  "_inCache": true,
+  "_location": "/auto-project",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\ERRORC~1\\AppData\\Local\\Temp\\d-118517-18700-1i24t7w.gur1azia4i\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\ERRORC~1\\AppData\\Local\\Temp\\d-118517-18700-1i24t7w.gur1azia4i\\package.tgz",
+    "spec": "C:\\Users\\ERRORC~1\\AppData\\Local\\Temp\\d-118517-18700-1i24t7w.gur1azia4i\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-118517-18700-1i24t7w.gur1azia4i\\package.tgz",
+  "_shasum": "1c2e3f52d50851fbc00664a35b14f20808d9a34c",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\ERRORC~1\\AppData\\Local\\Temp\\d-118517-18700-1i24t7w.gur1azia4i\\package.tgz",
+  "_where": "C:\\Users\\ERRORC~1\\AppData\\Local\\Temp\\apm-install-dir-118517-18700-1jutqx6.h0e2ck57b9",
+  "bugs": {
+    "url": "https://github.com/rumoto/auto-project/issues"
+  },
+  "dependencies": {},
+  "description": "Set the project to the specified folders and the (Git) working folders of the opened files.",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/rumoto/auto-project#readme",
+  "keywords": [
+    "project",
+    "treeview",
+    "folder",
+    "directory",
+    "git"
+  ],
+  "license": "MIT",
+  "main": "./lib/auto-project",
+  "name": "auto-project",
+  "optionalDependencies": {},
+  "readme": "# auto-project package\nSet the project to the specified folders and the (Git) working folders of the opened files.\n\n![screenshot](https://github.com/rumoto/auto-project/raw/master/screenshot.gif)\n\n## Installation\n```bash\n$ apm install auto-project\n```\n\n## Settings\n### Only Active\nSet the project to the specified folders and the (Git) working folder of the active file.\n\n### First Folders\nAdd the specified folders to the project at first.\n\n### Last Folders\nAdd the specified folders to the project at last.\n\n## Commands\n### auto-project:clear-first-folders\nClear the first folders.\n\n### auto-project:clear-last-folders\nClear the last folders.\n\n### auto-project:save-project-as-first-folders\nSave project as the first folders.\n\n### auto-project:save-project-as-last-folders\nSave project as the last folders.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rumoto/auto-project.git"
+  },
+  "version": "1.1.7"
+}
